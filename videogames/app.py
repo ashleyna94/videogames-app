@@ -17,7 +17,7 @@ from flask import (
 app = Flask(__name__)
 
 from flask_sqlalchemy import SQLAlchemy
-# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '') or "sqlite:///video_games.sqlite"
+app.config['SQLALCHEMY_DATABASE_URL'] = os.environ.get('DATABASE_URL', '') or "sqlite:///video_games.sqlite"
 # app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', '')
 db = SQLAlchemy(app)
 
