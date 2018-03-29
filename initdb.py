@@ -1,4 +1,4 @@
-# from videogames.app import db
+from videogames.app import db
 
 # db.drop_all()
-# db.create_all()
+db.create_all()
