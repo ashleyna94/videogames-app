@@ -13,7 +13,7 @@ html { font-size: 62.5%; }
 ::selection {background: #c0e9b0; }
 ::-moz-selection { background: #c0e9b0; }
 
-body { display: block; background: #c7f090 url('../img/bg.jpg'); padding: 0px 35px; background-attachment: fixed; background-size:100%;}
+body { display: block; background: #c7f090 url('http://pm1.narvii.com/6733/b96f4578abbf23652e4ccae6f9184ba331a7b596_00.jpg'); padding: 0px 35px; background-attachment: fixed; background-size:100%;}
 
 img { max-width: 100%; } 
 
