@@ -1,25 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pet Pals!</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>What Makes A Videogame A Hit?</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="shortcut icon" href="1up.png">
+  <link rel="icon" href="1up.png">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron" style="text-align: center">
-            <h1>Video Games</h1>
-            <p>-----</p>
-        </div>
+<div id="wrapper">
+		<header>
+			<h1>What Makes A Videogame A Hit?</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="mosaic.html">Mosaic</a></li>
+				<li><a href="trends.html">Trends</a></li>
+				<li><a href="genres.html">Genres</a></li>
+				<li><a href="publishers.html">Publishers</a></li>
+				<li><a href="machine_learning.html">Machine Learning</a></li>
+				
+			</ul>
+		</nav>
+		
+		<section id="content">
+			<h1 class="oneup">Welcome to Our Website!</h1>
+			<p>Throughout this website we explore the history of videogames, analyze sales and review data, and use machine learning to predict the next "hit" videogame. We'll also show off some cool artwork visualizations that we have created!</p>
+			
+			<p><img src="img/controllers.jpg" alt="Controllers Image" class="floatr" width=250 height=125> From the Atari 2600 to the XBox One, we'll categorize videogames by platform, publisher, and genre. Which platforms outshine the others? Which publishers release the most games? What genres tend to be most successful? These are several questions we will answer throughout this website.</p>
+			
+			<p>The navigation bar at the top will take you through each level of our analysis, beginning with Trends in which we use Tableau to create interactive visualizations of trends over time, and ending with Machine Learning to make a prediction for the next hit game!</p>
+			
+            <p>We hope you enjoy your experience here.</p> 
+            
+            <h2><blink>Thanks for playing!</blink></h2></p>
+			<center><img src="img/video-game-gif-20.gif" alt="Videogame Gif" width=500 height=171></center>
+</section>
+		
 
-    </div>
-
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
-
 </html>
