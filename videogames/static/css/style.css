@@ -21,7 +21,7 @@ header h1 { font-family: 'ketchum', Arial, sans-serif; color: #02FF11; font-size
 header h1 { position: absolute; top: 10px; left: 60px; letter-spacing: 0.1em; }
 #content h1 { font-family: 'Acme', Trebuchet MS, Arial, sans-serif; color: #565656; font-weight: bold; font-size: 2.1em; letter-spacing: 0.07em; text-shadow: none; margin-bottom: 7px; }
 
-#content h1.oneup { padding-left: 20px; background: url("http://icons.iconarchive.com/icons/ph03nyx/super-mario/24/Retro-Mushroom-1UP-3-icon.png") 0px 5px no-repeat; }
+#content h1.oneup { padding-left: 20px; background: url("http://icons.iconarchive.com/icons/ph03nyx/super-mario/16/Retro-Mushroom-1UP-3-icon.png") 0px 5px no-repeat; }
 
 p { display: block; font-family: Arial, Tahoma, sans-serif; color: #343434; font-size: 1.3em; line-height: 1.4em; margin-bottom: 12px; }
 
