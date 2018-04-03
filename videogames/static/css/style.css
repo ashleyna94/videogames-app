@@ -13,7 +13,7 @@ html { font-size: 62.5%; }
 ::selection {background: #c0e9b0; }
 ::-moz-selection { background: #c0e9b0; }
 
-body { display: block; background: #c7f090 url('http://pm1.narvii.com/6733/b96f4578abbf23652e4ccae6f9184ba331a7b596_00.jpg'); padding: 0px 35px; background-attachment: fixed; background-size:100%;}
+body { display: block; background: #c7f090 url("http://pm1.narvii.com/6733/b96f4578abbf23652e4ccae6f9184ba331a7b596_00.jpg"); padding: 0px 35px; background-attachment: fixed; background-size:100%;}
 
 img { max-width: 100%; } 
 
@@ -21,7 +21,7 @@ header h1 { font-family: 'ketchum', Arial, sans-serif; color: #02FF11; font-size
 header h1 { position: absolute; top: 10px; left: 60px; letter-spacing: 0.1em; }
 #content h1 { font-family: 'Acme', Trebuchet MS, Arial, sans-serif; color: #565656; font-weight: bold; font-size: 2.1em; letter-spacing: 0.07em; text-shadow: none; margin-bottom: 7px; }
 
-#content h1.oneup { padding-left: 20px; background: url('http://files.softicons.com/download/game-icons/super-mario-icons-by-sandro-pereira/png/16/Retro%20Mushroom%20-%201UP%203.png') 0px 5px no-repeat; }
+#content h1.oneup { padding-left: 20px; background: url("http://files.softicons.com/download/game-icons/super-mario-icons-by-sandro-pereira/png/16/Retro%20Mushroom%20-%201UP%203.png") 0px 5px no-repeat; }
 
 p { display: block; font-family: Arial, Tahoma, sans-serif; color: #343434; font-size: 1.3em; line-height: 1.4em; margin-bottom: 12px; }
 
@@ -38,7 +38,7 @@ header {
 display: block; 
 height: 140px; 
 position: relative;
-background: url('https://cdn-images-1.medium.com/max/800/1*XveZHrOzD5WY44XaHlc7_g.jpeg') no-repeat; 
+background: url("https://cdn-images-1.medium.com/max/800/1*XveZHrOzD5WY44XaHlc7_g.jpeg") no-repeat; 
 background-size:cover;
 border-bottom-left-radius: 7px;
 border-bottom-right-radius: 7px;
@@ -56,7 +56,7 @@ nav { display: block; padding: 10px 8px; }
 nav ul { display: block; list-style: none; }
 
 nav ul li { display: inline-block; font-size: 1.95em; font-family: 'Gorditas', Tahoma, sans-serif; } 
-nav ul li a {background: url('http://www.fotoseimagenes.net/imagenes/full/0/14/6/24-bits-1.jpg'); background-size:cover; display: inline-block; margin-right: 2px; color: #fff; text-shadow: 1px 1px 1px rgba(55, 100, 120, 0.7); padding: 5px 11px; color: rgb(209, 34, 34); border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+nav ul li a {background: url("http://www.fotoseimagenes.net/imagenes/full/0/14/6/24-bits-1.jpg"); background-size:cover; display: inline-block; margin-right: 2px; color: #fff; text-shadow: 1px 1px 1px rgba(55, 100, 120, 0.7); padding: 5px 11px; color: rgb(209, 34, 34); border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
 nav ul li a:hover { background: #95d958; text-decoration: none; color: #526742; text-shadow: 0px 1px 0px rgba(55, 100, 120, 0.7); }
 
 
