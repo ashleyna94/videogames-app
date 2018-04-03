@@ -36,7 +36,7 @@ Videogames = Base.classes.videogames
 session = Session(engine)
 
 
-# Create route that renders index.html template
+# Create route that renders html templates
 @app.route("/")
 def home():
     return render_template("index.html")
@@ -45,8 +45,25 @@ def home():
 def about():
     return render_template("about.html")
 
+@app.route("/mosaic.html")
+def mosaic():
+    return render_template("mosaic.html")
 
+@app.route("/trends.html")
+def trends():
+    return render_template("trends.html")
 
+@app.route("/genres.html")
+def genres():
+    return render_template("genres.html")
+
+@app.route("/publishers.html")
+def publishers():
+    return render_template("publishers.html")
+
+@app.route("/machine_learning.html")
+def machine_learning():
+    return render_template("machine_learning.html")
 
 @app.route("/api/genre")
 def genre():
