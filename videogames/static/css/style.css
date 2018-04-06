@@ -79,23 +79,23 @@ footer ul li a:hover { text-decoration: underline; }
 
 /**plots for game count **/
 #publisher-plot {   
-    width: 500px;
+    width: 550px;
     height: 500px;
 }
 
 #publisher-plot.genre {
-    width: 985px;
+    width: 960px;
     height: 600px;
 }
 
 #publisher-plot.platform {
-    width: 985px;
+    width: 960px;
     height: 600px;
 
 }
 
 #publisher-plot.publisher {
-    width: 920px;
+    width: 900px;
     height: 630px;
 
 }
