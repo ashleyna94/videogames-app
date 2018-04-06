@@ -79,8 +79,8 @@ footer ul li a:hover { text-decoration: underline; }
 
 /**plots for game count **/
 #publisher-plot {   
-    width: 550px;
-    height: 500px;
+    width: 700px;
+    height: 600px;
 }
 
 #publisher-plot.genre {
