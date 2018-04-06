@@ -65,6 +65,26 @@ def publishers():
 def machine_learning():
     return render_template("machine_learning.html")
 
+def get_dict_of_data(df, colname):
+    column_dict = df[colname].value_counts().astype(float).to_frame().to_dict(orient="split")
+    column_dict["data"] = [x[0] for x in column_dict["data"]]
+    return column_dict
+
+@app.route("/api/plot")
+def returntable():
+    stmt = session.query(Videogames).statement
+
+    # #Game Count 
+    df = pd.read_sql_query(stmt, session.bind)
+    df_filter = df.head()
+    # df = df[['Name','Platform']].groupby(['Platform']).count().sort_values('Name', ascending=False).reset_index
+    columns_to_count = ["Platform", "Genre", "Publisher"]
+
+    column_counts = {colname: get_dict_of_data(df, colname) for colname in columns_to_count}
+    json_for_plotly = jsonify(column_counts)
+    return json_for_plotly
+
+
 @app.route("/api/genre")
 def genre():
     stmt = session.query(Videogames).statement
