@@ -53,13 +53,13 @@ def mosaic():
 def trends():
     return render_template("trends.html")
 
-@app.route("/genres.html")
+@app.route("/topsales.html")
 def genres():
-    return render_template("genres.html")
+    return render_template("topsales.html")
 
-@app.route("/publishers.html")
+@app.route("/gamecount.html")
 def publishers():
-    return render_template("publishers.html")
+    return render_template("gamecount.html")
 
 @app.route("/machine_learning.html")
 def machine_learning():
