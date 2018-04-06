@@ -85,17 +85,17 @@ footer ul li a:hover { text-decoration: underline; }
 
 #publisher-plot.genre {
     width: 1000px;
-    height: 700px;
+    height: 600px;
 }
 
 #publisher-plot.platform {
     width: 1000px;
-    height: 700px;
+    height: 600px;
 
 }
 
 #publisher-plot.publisher {
     width: 950px;
-    height: 790px;
+    height: 690px;
 
 }
