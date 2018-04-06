@@ -75,3 +75,27 @@ footer ul li { display: inline; font-size: 1.3em; }
 footer ul li a { display: inline-block; padding: 4px 0px; margin-right: 8px; color: #fff; text-shadow: 1px 1px 1px rgba(55, 100, 120, 0.7); }
 
 footer ul li a:hover { text-decoration: underline; }
+
+
+/**plots for game count **/
+#publisher-plot {   
+    width: 500px;
+    height: 500px;
+}
+
+#publisher-plot.genre {
+    width: 1000px;
+    height: 700px;
+}
+
+#publisher-plot.platform {
+    width: 1000px;
+    height: 700px;
+
+}
+
+#publisher-plot.publisher {
+    width: 950px;
+    height: 790px;
+
+}
