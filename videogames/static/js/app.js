@@ -20,7 +20,7 @@ function buildPlot (name) {
             layoutToRender = {
                 title: 'Game Count vs. Genre (1976-2017)',
                 titlefont: {
-                    size: 30
+                    size: 22
                 },
                 xaxis: {
                     title: 'Genre',
@@ -51,7 +51,7 @@ function buildPlot (name) {
             layoutToRender = {
                 title: 'Game Count vs. Platform (1976-2017)',
                 titlefont: {
-                    size: 30
+                    size: 22
                 },  
                 xaxis: {
                     title: 'Game Platform',
@@ -82,7 +82,7 @@ function buildPlot (name) {
             layoutToRender = {
                 title: 'Game Count vs. Publisher (1976-2017)',
                 titlefont: {
-                    size: 30
+                    size: 22
                 },
                 margin: {
                     l: 100,
