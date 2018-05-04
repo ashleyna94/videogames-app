@@ -22,7 +22,7 @@ From the Atari 2600 to the XBox One, we categorized video games by platform, pub
 ----- 
 
 #### Dataset
-The dataset was generated from a scrape of [VGChartz](http://www.vgchartz.com/)
+The dataset was generated from a scrape of [VGChartz](http://www.vgchartz.com/).
 
 -----
 
