@@ -26,6 +26,25 @@ The dataset was generated from a scrape of [VGChartz](http://www.vgchartz.com/)
 
 -----
 
+#### Technology Used in the Web Application:
+
+* Back End: 
+  * Heroku 
+  * Flask
+  * SQLite
+  * SQLAlchemy
+  * Python 3.6
+  * Pandas 
+  * Matplotlib
+  * Scipy.stats
+
+* Front End: 
+  * HTML/CSS
+  * Javascript
+    * JS libraries: D3.js, Plotly.js
+
+-----
+
 #### Web App Content
 * Mosaics 
 * Trends 
