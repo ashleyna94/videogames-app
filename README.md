@@ -26,7 +26,7 @@ The dataset was generated from a scrape of [VGChartz](http://www.vgchartz.com/).
 
 -----
 
-#### Technology Used in the Web Application:
+#### Technologies Used in the Web Application
 
 * Back End: 
   * Heroku 
